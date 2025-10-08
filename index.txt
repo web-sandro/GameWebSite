@@ -1,0 +1,279 @@
+Gamics - Crie e Gerencie Partidas
+
+#---------- HEADER ----------#
+
+Oferta Exclusiva de Black Friday!
+10
+Dias
+
+Siga-nos em :
+
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-pinterest"></ion-icon>
+<ion-icon name="logo-linkedin"></ion-icon>
+
+Gamics
+
+Início
+Ao Vivo
+Recursos
+Loja
+Blog
+Contato
+
+aria-label = "carrinho"
+
+<ion-icon name="cart"></ion-icon>
+0
+
+aria-label = "abrir busca"
+
+<ion-icon name="search-outline"></ion-icon>
+
+aria-label = "alternar menu"
+<ion-icon name="menu-outline" class="menu"></ion-icon>
+<ion-icon name="close-outline" class="close"></ion-icon>
+
+#---------- SEARCH BOX ----------#
+
+aria-label = "buscar"
+
+placeholder = "Busque aqui..."
+
+aria-label = "enviar busca"
+<ion-icon name="search-outline"></ion-icon>
+
+aria-label = "fechar busca"
+
+#---------- HERO ----------#
+
+Mundo dos Games
+
+Crie e Gerencie Partidas
+
+Encontre tecnologia ou pessoas para projetos digitais no setor público e encontre um especialista, desenvolvedor ou pesquisador.
+
+Leia Mais
+
+alt = "banner principal"
+
+#---------- BRAND ----------#
+
+alt = "logo da marca"
+
+#---------- LATEST GAME ----------#
+
+Últimos Lançamentos
+
+Criar & Gerenciar
+
+alt = "White Walker Daily"
+
+Zumbi
+
+White Walker
+Daily
+
+Taxa de Inscrição:
+Grátis
+
+alt = "Hunter Killer II"
+
+Aventura
+
+Hunter Killer
+II
+
+Taxa de Inscrição :
+$25.00
+
+alt = "Cyberpunk Daily"
+
+Ação
+
+Cyberpunk
+Daily
+
+#---------- LIVE MATCH ----------#
+
+Assista à Partida
+Ao Vivo
+
+alt = "Vídeo da Partida Ao Vivo"
+
+aria-label = "reproduzir vídeo"
+<ion-icon name="play"></ion-icon>
+
+alt = "tokyo eagle"
+
+Próximas Partidas Ao Vivo
+
+08:30
+
+alt = "new york hunter7"
+
+#---------- FEATURED GAME ----------#
+
+aria-label="jogos em destaque"
+
+Todos os Jogos
+Lançados
+
+alt = "Apenas para Gamers"
+
+Apenas para
+Gamers
+
+<ion-icon name="notifications"></ion-icon>
+
+Playstation 5, Xbox
+
+alt = "Need for Speed"
+
+Need for
+Speed
+
+alt = "Egypt Hunting Gamers"
+
+Egypt Hunting
+Gamers
+
+alt = "Apenas para Gamers"
+
+Apenas para
+Gamers
+
+#---------- SHOP ----------#
+
+aria-label="loja"
+
+Canto dos Produtos
+Gamer
+
+Compita com 100 jogadores em uma ilha remota por uma batalha onde o vencedor leva tudo.
+
+alt = "Camiseta Preta Feminina"
+
+camiseta
+
+Camiseta Preta Feminina
+
+$29.00
+
+<ion-icon name="basket"></ion-icon>
+
+alt = "Controle de Xbox Gears 5"
+
+x-box
+
+Controle de Xbox Gears 5
+
+alt = "GeForce RTX 2070"
+
+Placa Gráfica
+
+GeForce RTX 2070
+
+alt = "Óculos de Realidade Virtual"
+
+VR-Box
+
+Óculos de Realidade Virtual
+
+#---------- BLOG ----------#
+
+Últimas Notícias &
+Artigos
+
+Compita com 100 jogadores em uma ilha remota por uma batalha onde o vencedor leva tudo.
+
+alt = "Vídeo de Ação e Tiro"
+
+<ion-icon name="person-outline"></ion-icon>
+Admin
+
+<ion-icon name="calendar-outline"></ion-icon>
+07 de Outubro de 2025
+
+Vídeo de Ação e Tiro
+
+Compita com 100 jogadores em uma ilha remota onde o vencedor leva tudo.
+
+Leia Mais
+
+<ion-icon name="caret-forward"></ion-icon>
+
+alt = "The Walking Dead"
+
+alt = "Defense Of The Ancients"
+
+#---------- NEWSLETTER ----------#
+
+Nossa
+Newsletter
+
+placeholder = "Digite seu e-mail..."
+
+<ion-icon name="mail-outline"></ion-icon>
+
+Inscrever-se
+
+<ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+
+#---------- FOOTER ----------#
+
+Gamics
+
+O marketplace Gamics... (texto de exemplo)
+
+<ion-icon name="location"></ion-icon>
+
+Endereço: Rua Um, 1000 - Centro Caraguatatuba - SP
+
+<ion-icon name="headset"></ion-icon>
+
+Celular: +55 12 95555 5555
+
+<ion-icon name="mail-open"></ion-icon>
+
+Email : info@exemple.com
+
+Produtos
+
+Placas Gráficas (26)
+Planos de Fundo (11)
+Fontes (9)
+Músicas (3)
+Fotografias (3)
+
+Precisa de Ajuda?
+
+Termos & Condições
+Política de Privacidade
+Política de Reembolso
+Afiliados
+Casos de Uso
+
+Siga-nos
+
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-pinterest"></ion-icon>
+<ion-icon name="logo-linkedin"></ion-icon>
+
+Inscrição na Newsletter
+
+placeholder = "Digite seu e-mail"
+
+aria-label = "enviar"
+
+<ion-icon name="rocket"></ion-icon>
+
+&copy; 2025 Gamics. Todos os Direitos Reservados por [Seu nome]
+
+#---------- BACK TO TOP ----------#
+
+aria-label = "voltar ao topo"
+
+<ion-icon name="caret-up"></ion-icon>
