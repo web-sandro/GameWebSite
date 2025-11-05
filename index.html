@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gamics - Crie e Gerencie Partidas</title>
-
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="'preconnect" href="">
-    <link rel="'preconnect" href="">
-
+    <link rel="'preconnect" href="https://fonts.googleapis.com">
+    <link rel="'preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+                family=Oxanium:wght@200..800&family=Poppins:it
+                al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,7
+                00;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,60
+                0;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -81,9 +84,207 @@
                         </li>
                     </ul>
                     </nav>
+                    <div class="header-actions">
+                        <button class="cart-btn">
+                            <ion-icon name="bag-handle-outline"></ion-icon>
+                            <span class="cart-badge">0</span>
+                        </button>
+                        <button class="search-btn" aria-label="Abrir Busca" data-search>
+                            <ion-icon name="search-outline"></ion-icon>
+                        </button>
+                        <button class="nav-toggle-btn" aria-label="Alternar Menu" data-nav-toggler="">
+                            <ion-icon name="menu-outline" class="menu"></ion-icon>
+                            <icon name="close-outline" class="close"></ion-icon>
+                        </button>
+                    </div>
             </div>
         </div>
     </header>
+    <div class="search-container" data-search-box="">
+        <div class="input-wrapper">
+            <input type="search" name="search" aria-label="Buscar" placeholder="Buscar aqui..." class="search-field"
+                data-search-input>
+            <button class="search-submit" aria-label="Enviar Busca" data-search-toggler>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <button class="search-close" aria-label="Fechar Busca" data-search-toggler>
+            </button>
+        </div>
+    </div>
+    <main>
+        <article>
+            <!-- seção hero -->
+            <section class="section hero" id="home" aria-label="início"
+                sryle="background-image: url('assets/images/home-bg.jpg')">
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle">Mundo dos Games</p>
+                        <h1 class="h1 hero-title">
+                            Crie e <span>Gerencie</span> Partidas
+                        </h1>
+                        <p class="hero-text">
+                            Junte seus amigos e organize partidas de jogos de
+                            forma fácil e divertida com nossa plataforma intuitiva.
+                        </p>
+                        <button class="btn skewBg">
+                            Leia Mais
+                        </button>
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-primary">
+                                Comece Agora
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                Saiba Mais
+                            </a>
+                        </div>
+                    </div>
+                    <Figure class="hero-banner img-holder" style="--width: 700; --height: 700;">
+                        <img src="./assets/images/hero-banner.png" width="700" height="700" alt="Banner Principal"
+                            class="w-100">
+                    </Figure>
+                </div>
+            </section>
+            <section class="section brand" aria-label="brand">
+                <div class="container">
+                    <ul class="has-scrollbar brand-list">
+                        <li class="brand-item">
+                            <img src="./assets/images/brand-1.png" width="90" height="90" loading="lazy"
+                                alt="Logo da Marca">
+                        </li>
+                        <li class="brand-item">
+                            <img src="./assets/images/brand-2.png" width="90" height="90" loading="lazy"
+                                alt="Logo da Marca">
+                        </li>
+                        <li class="brand-item">
+                            <img src="./assets/images/brand-3.png" width="90" height="90" loading="lazy"
+                                alt="Logo da Marca">
+                        </li>
+                        <li class="brand-item">
+                            <img src="./assets/images/brand-4.png" width="90" height="90" loading="lazy"
+                                alt="Logo da Marca">
+                        </li>
+                        <li class="brand-item">
+                            <img src="./assets/images/brand-5.png" width="90" height="90" loading="lazy"
+                                alt="Logo da Marca">
+                        </li>
+                        <li class="brand-item">
+                            <img src="./assets/images/brand-6.png" width="90" height="90" loading="lazy"
+                                alt="Logo da Marca">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="section-wrapper">
+                <section class="section latest-game" aria-label="últimos jogos">
+                    <div class="container">
+                        <p class="section-title">
+                            Últimos Lançamentos
+                        </p>
+                        <p class="h2 section-title">
+                            Criar & <span class="span">Gerenciar</span>
+                        </p>
+                        <ul class="has-scrollbar">
+                            <li class="has-scrollbar-item">
+                                <div class="latest-game-card">
+                                    <Figure class="card-banner imh-holder" style="--width:400; --height:470;">
+                                        <img src="assets/images/latest-game-1.jpg" width="400" height="470"
+                                            loading="lazy" alt="White Walker Daily">
+                                    </Figure>
+                                    <div class="card-content">
+                                        <a href="#" class="cart-badge skewBg">
+                                            Zumbi
+                                        </a>
+                                        <h3 class="h3">
+                                            White Walker <span class="span">Daily</span>
+                                        </h3>
+                                        <p class="card-price">
+                                            Taxa de inscrição <span class="span">Gratis</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="has-scrollbar-item">
+                                <div class="latest-game-card">
+                                    <Figure class="card-banner imh-holder" style="--width:400; --height:470;">
+                                        <img src="assets/images/latest-game-2.jpg" width="400" height="470"
+                                            loading="lazy" alt="Hunter Killer II">
+                                    </Figure>
+                                    <div class="card-content">
+                                        <a href="#" class="cart-badge skewBg">
+                                            Aventura
+                                        </a>
+                                        <h3 class="h3">
+                                            Hunter Killer <span class="span">II</span>
+                                        </h3>
+                                        <p class="card-price">
+                                            Taxa de inscrição <span class="span">$25,00</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="has-scrollbar-item">
+                                <div class="latest-game-card">
+                                    <Figure class="card-banner imh-holder" style="--width:400; --height:470;">
+                                        <img src="assets/images/latest-game-3.jpg" width="400" height="470"
+                                            loading="lazy" alt="Ciberpunk Daily">
+                                    </Figure>
+                                    <div class="card-content">
+                                        <a href="#" class="cart-badge skewBg">
+                                            Aventura
+                                        </a>
+                                        <h3 class="h3">
+                                            Ciberpunk <span class="span">Daily</span>
+                                        </h3>
+                                        <p class="card-price">
+                                            Taxa de inscrição <span class="span">$25,00</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- Live Metch -->
+                <section class="section live-match" id="live" aria-label="partidas ao vivo">
+                    <div class="container">
+                        <h2 class="h2 section-title"></h2>
+                        Assistir á Partidas <span class="span">Ao Vivo</span>
+                        <figure class="live-match-banner img-holder">
+                            <img src="./assets/images/live-match-banner.jpg" width="800" height="470" loading="lazy"
+                                alt="Partida ao Vivo" class="img-cover">
+                            <button class="play-btn" aria-label="Reproduzir Vídeo">
+                                <ion-icon name="play"></ion-icon>
+                            </button>
+                        </figure>
+                        <div class="live-match-player">
+                            <figure class="player player-1 img-holder" 
+                                    style=" --width: 406; --height: 277;">
+                                    <img src="./assets/images/live-match-player-1.png" 
+                                    width="406" 
+                                    height="277" 
+                                    alt="tokyo eagle"
+                                    loading="lazy" 
+                                    class="w-100">
+                            </figure>
+                            <div class="live-match-detail">
+                                <p class="live-match-subtitle">
+                                    Próximas Partidas Ao Viivo
+                                </p>
+                                <time class="live-match-time" dateline="08:30">08:30</time>
+                            </div>
+                            <figure class="player player-2 img-holder" 
+                                style=" --width: 406; --height: 305;">
+                                    <img src="./assets/images/live-match-player-2.png" 
+                                    width="406" 
+                                    height="305" 
+                                    alt="new york hunter7"
+                                    loading="lazy" 
+                                    class="w-100">
+                            </figure>
+                        </div>
+                    </div>
+        </article>
+    </main>
 </body>
 
 </html>
